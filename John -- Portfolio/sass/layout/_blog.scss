@@ -1,0 +1,58 @@
+.blog__container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.blog__title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 55px;
+}
+.blog__item-title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+.blog__list,
+.list {
+  margin-top: 0px;
+}
+
+.blog__item-title {
+  margin-top: 32px;
+}
+
+.blog__item-about {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.blog__item-date {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243d;
+  margin-top: 0px;
+}
+.blog__item-about {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 30px;
+}
+.blog__help-class {
+  margin-top: 0px;
+}

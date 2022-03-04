@@ -1,0 +1,80 @@
+.fitchers__item-date {
+  display: flex;
+  align-items: center;
+}
+.fitchers__container {
+  display: flex;
+  width: 100%;
+}
+.fitchers__container:not(:last-child) {
+  margin-bottom: 46px;
+}
+
+.fitchers__title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.fitchers__item {
+  width: 100%;
+  margin-left: 18px;
+}
+.fitchers__section {
+  max-width: 750px;
+  margin: 0 auto;
+  padding-bottom: 86px;
+}
+.fitchers__item-title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  margin: 0px;
+}
+.fitchers__item-about {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  margin: 0px;
+}
+.fitchers__item-activity {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+.fitchers__item-year {
+  color: #fff;
+  background-color: #142850;
+  border-radius: 16px;
+  padding: 5px;
+  margin-right: 26px;
+}
+.fitchers__main-title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  margin-top: 90px;
+}
+
+.fitchers__container {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 47px;
+}

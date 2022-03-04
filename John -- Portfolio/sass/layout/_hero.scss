@@ -1,0 +1,92 @@
+.hero__cards-item {
+  background-color: #fff;
+  max-width: 418px;
+  max-height: 295px;
+  justify-content: center;
+}
+.hero__section {
+  background-color: #edf7fa;
+  padding-bottom: 32px;
+}
+
+.hero__cards-name {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.hero__cards-date {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243d;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 17px;
+}
+.hero__cards-about {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero__cards-item {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.hero__cards-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hero__list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+.hero__item-navigation {
+  display: flex;
+}
+.hero__item-nav {
+  @media screen and (max-width: 375px) {
+    text-align: center;
+    justify-content: center;
+    max-width: 105px;
+    margin: 0 auto;
+  }
+  color: #21243d;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 60px;
+  padding-top: 20px;
+}
+.hero__item-nav:not(:last-child) {
+  margin-right: 540px;
+}
+.hero__item-nav:hover {
+  color: #00a8cc;
+  transition: color 250ms linear;
+}
+
+/* ADAPTIVE */
+
+.adaptive__hidden {
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
+}

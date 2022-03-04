@@ -1,0 +1,27 @@
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+  margin-top: 33px;
+  margin-bottom: 0px;
+}
+.menu__item {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  height: 40px;
+  align-items: center;
+}
+.menu__item:not(:last-child) {
+  margin-right: 33px;
+}
+.menu__link:hover {
+  color: #ff6464;
+  transition: color 250ms linear;
+}
+.menu__link {
+  transition: color 250ms linear;
+  color: #000;
+}

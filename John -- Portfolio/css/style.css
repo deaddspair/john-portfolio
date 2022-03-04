@@ -1,0 +1,79 @@
+/* --- BASE --- */
+/*
+.container {
+  max-width: 856px;
+}
+.header__container {
+  max-width: 1032px;
+}
+.list {
+  list-style-type: none;
+}
+.a__settings {
+  text-decoration: none;
+}
+
+/* HEADER */
+/*
+.header__list-item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.header__list {
+  display: flex;
+  align-content: flex-end;
+  padding-left: 856px;
+}
+.header__list-item {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  height: 43px;
+  color: #000;
+}
+.header__list-link:hover {
+  color: #ff6464;
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---- hero --- */
+/*
+.hero__content-about-me {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #000;
+  margin-bottom: 40px;
+}
+.hero__content-about-proffesion {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000;
+  margin-bottom: 40px;
+}
+.hero__button {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 21px;
+  padding-top: 9px;
+  padding-bottom: 17px;
+  background-color: #ff6464;
+  border: none;
+}
+.hero__content {
+  margin-left: 148px;
+  padding-top: 158px;
+}
